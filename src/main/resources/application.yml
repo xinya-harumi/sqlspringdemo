@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/emall?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/databasename?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
     username: root
-    password: 1123
+    password: xxxx
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
